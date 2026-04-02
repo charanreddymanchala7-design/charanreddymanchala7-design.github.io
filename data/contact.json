@@ -1,0 +1,20 @@
+{
+  "heading": "GET IN TOUCH",
+  "subheading": "Let's build something amazing together",
+  "links": [
+    {
+      "icon": "fab fa-github",
+      "label": "GitHub",
+      "url": "https://github.com/charanreddymanchala7-design",
+      "color": "#ffd93d"
+    },
+    {
+      "icon": "fas fa-envelope",
+      "label": "Email",
+      "url": "mailto:charanreddymanchala9@gmail.com",
+      "color": "#ff6b9d"
+    }
+  ],
+  "email": "charanreddymanchala9@gmail.com",
+  "availability": "Open to opportunities"
+}

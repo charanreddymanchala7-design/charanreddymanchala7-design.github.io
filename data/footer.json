@@ -1,0 +1,36 @@
+{
+  "brandName": "CHARAN REDDY MANCHALA",
+  "brandTitle": "Salesforce Developer",
+  "navLinks": [
+    {
+      "label": "Home",
+      "href": "#hero"
+    },
+    {
+      "label": "About",
+      "href": "#about"
+    },
+    {
+      "label": "Experience",
+      "href": "#experience"
+    },
+    {
+      "label": "Skills",
+      "href": "#skills"
+    }
+  ],
+  "socialLinks": [
+    {
+      "icon": "fab fa-github",
+      "url": "https://github.com/charanreddymanchala7-design",
+      "label": "GitHub"
+    },
+    {
+      "icon": "fas fa-envelope",
+      "url": "mailto:charanreddymanchala9@gmail.com",
+      "label": "Email"
+    }
+  ],
+  "copyright": "Charan Reddy Manchala",
+  "year": "2026"
+}

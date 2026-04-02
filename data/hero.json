@@ -1,0 +1,123 @@
+{
+  "greeting": "Hi there!",
+  "name": "Charan Reddy Manchala",
+  "description": "Based in Fairfax, VA. 5x Certified Salesforce Developer with 8 years of experience designing, developing, and implementing innovative solutions on the Salesforce platform.",
+  "tagline": "Salesforce Developer",
+  "avatarUrl": "",
+  "socialLinks": [
+    {
+      "icon": "fab fa-github",
+      "url": "https://github.com/charanreddymanchala7-design",
+      "label": "GitHub"
+    },
+    {
+      "icon": "fas fa-envelope",
+      "url": "mailto:charanreddymanchala9@gmail.com",
+      "label": "Email"
+    }
+  ],
+  "techBadges": [
+    {
+      "icon": "fas fa-circle",
+      "label": "Apex"
+    },
+    {
+      "icon": "fas fa-circle",
+      "label": "SOQL"
+    },
+    {
+      "icon": "fas fa-circle",
+      "label": "SOSL"
+    },
+    {
+      "icon": "fas fa-microchip",
+      "label": "LWC"
+    },
+    {
+      "icon": "fas fa-chart-line",
+      "label": "Visualforce"
+    },
+    {
+      "icon": "fas fa-chart-line",
+      "label": "Aura Components"
+    },
+    {
+      "icon": "fas fa-chart-line",
+      "label": "Screen Flows"
+    },
+    {
+      "icon": "fas fa-chart-line",
+      "label": "Salesforce CLI"
+    }
+  ],
+  "terminalCommands": {
+    "about": {
+      "title": "About Me",
+      "content": "Salesforce Developer with 3+ years of experience building scalable web applications.",
+      "highlights": [
+        "Working with Apex",
+        "Working with SOQL",
+        "Working with SOSL"
+      ]
+    },
+    "skills": [
+      "Apex",
+      "SOQL",
+      "SOSL",
+      "LWC",
+      "Visualforce",
+      "Aura Components",
+      "Screen Flows",
+      "Salesforce CLI",
+      "ANT",
+      "Jenkins",
+      "REST API",
+      "SOAP API",
+      "OAuth 2.0",
+      "Platform Events",
+      "Salesforce Platform",
+      "Sales Cloud"
+    ],
+    "experience": [
+      {
+        "company": "Comcast",
+        "title": "Full Stack Developer",
+        "period": "June 2023 – present",
+        "location": ""
+      },
+      {
+        "company": "Capgemini",
+        "title": "Salesforce Developer",
+        "period": "Mar 2019 – Nov 2021",
+        "location": ""
+      },
+      {
+        "company": "KCS",
+        "title": "Software Developer",
+        "period": "Apr 2016 - Mar 2018",
+        "location": ""
+      }
+    ],
+    "education": [
+      {
+        "degree": "MS",
+        "institution": "George Mason University",
+        "period": "Jan 2022 – May 2023"
+      }
+    ],
+    "contact": {
+      "email": "charanreddymanchala9@gmail.com",
+      "website": "",
+      "github": "github.com/charanreddymanchala7-design",
+      "linkedin": ""
+    }
+  },
+  "terminalLines": [
+    "$ whoami",
+    "Charan Reddy Manchala",
+    "$ cat role.txt",
+    "Salesforce Developer",
+    "$ ls skills/",
+    "Apex  SOQL  SOSL  LWC  Visualforce"
+  ]
+}

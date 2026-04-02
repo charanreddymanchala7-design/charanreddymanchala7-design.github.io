@@ -1,0 +1,32 @@
+{
+  "siteName": "Charan Reddy Manchala | Salesforce Developer",
+  "theme": "light",
+  "loaderInitials": [
+    "C",
+    "R"
+  ],
+  "metaDescription": "Charan Reddy Manchala — Salesforce Developer. Portfolio showcasing professional experience, skills, and projects.",
+  "metaKeywords": "Charan Reddy Manchala, Salesforce Developer, Portfolio",
+  "progressCheckpoints": [
+    {
+      "id": "hero",
+      "label": "Home"
+    },
+    {
+      "id": "about",
+      "label": "About"
+    },
+    {
+      "id": "experience",
+      "label": "Journey"
+    },
+    {
+      "id": "skills",
+      "label": "Skills"
+    },
+    {
+      "id": "contact",
+      "label": "Contact"
+    }
+  ]
+}

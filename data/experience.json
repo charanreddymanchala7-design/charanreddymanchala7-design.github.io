@@ -1,0 +1,81 @@
+{
+  "heading": "My Journey",
+  "positions": [
+    {
+      "title": "Full Stack Developer",
+      "company": "Comcast",
+      "startDate": "June 2023",
+      "endDate": "present",
+      "description": "Developed APEX triggers, Classes, Test methods and Visual Force pages to display alert messages and tasks to be done. Implemented pick lists, filed dependencies, lookups, master-detail relationships, validation and formula fields and customization. Designed and implemented numerous apex classes to manipulate existing org data using SOQL while navigating around governor limits. Developed comprehensive test classes to ensure code quality and maintainability. Mentored junior developers on Salesforce development best practices. Optimized SOQL and SOSL queries to ensure optimal performance. Integrated Salesforce with web forms using Web-to-Lead and Web-to-Case functionality.",
+      "location": "",
+      "achievements": [
+        "Developed APEX triggers, Classes, Test methods and Visual Force pages to display alert messages and tasks to be done.",
+        "Implemented pick lists, filed dependencies, lookups, master-detail relationships, validation and formula fields and customization.",
+        "Designed and implemented numerous apex classes to manipulate existing org data using SOQL while navigating around governor limits.",
+        "Developed comprehensive test classes to ensure code quality and maintainability.",
+        "Mentored junior developers on Salesforce development best practices.",
+        "Optimized SOQL and SOSL queries to ensure optimal performance.",
+        "Integrated Salesforce with web forms using Web-to-Lead and Web-to-Case functionality."
+      ],
+      "technologies": [
+        "Apex",
+        "Visualforce",
+        "SOQL",
+        "SOSL",
+        "LWC",
+        "Web-to-Lead",
+        "Web-to-Case"
+      ]
+    },
+    {
+      "title": "Salesforce Developer",
+      "company": "Capgemini",
+      "startDate": "Mar 2019",
+      "endDate": "Nov 2021",
+      "description": "Worked in Sales, Service cloud with various Salesforce features. Project: Auto-adjusting data processing per data conditioning. Implemented OAuth 2.0 for secure authorization and authentication of external applications. Experienced in mapping data between Salesforce and external systems, including handling data type conversions, transformations, and data cleansing. Developed Apex callouts to external web services to retrieve and process data. Created LWC components for user search and case ownership transfer, leveraging Screen Flows. Implemented data validation rules and other data governance measures. Provided technical support to Salesforce users and optimized data relationships using lookups and junction objects.",
+      "location": "",
+      "achievements": [
+        "Worked in Sales, Service cloud with various Salesforce features.",
+        "Project: Auto-adjusting data processing per data conditioning.",
+        "Implemented OAuth 2.0 for secure authorization and authentication of external applications.",
+        "Experienced in mapping data between Salesforce and external systems, including handling data type conversions, transformations, and data cleansing.",
+        "Developed Apex callouts to external web services to retrieve and process data.",
+        "Created LWC components for user search and case ownership transfer, leveraging Screen Flows.",
+        "Implemented data validation rules and other data governance measures.",
+        "Provided technical support to Salesforce users and optimized data relationships using lookups and junction objects."
+      ],
+      "technologies": [
+        "Sales Cloud",
+        "Service Cloud",
+        "Apex",
+        "LWC",
+        "Flows",
+        "OAuth 2.0",
+        "REST API",
+        "SOQL"
+      ]
+    },
+    {
+      "title": "Software Developer",
+      "company": "KCS",
+      "startDate": "Apr 2016",
+      "endDate": "Mar 2018",
+      "description": "Worked on Sales, Service cloud and developed the official website for Orbinius, featuring product listings, event management capabilities, and integrations for Web-to-Lead and Web-to-Case functionalities. Developed APEX triggers, Classes, Test methods and Visual Force pages. Implemented UI customizations using picklists, field dependencies, lookups, master-detail relationships, validation rules, and formula fields. Followed best practices for Salesforce integrations, including authentication, authorization, and data encryption.",
+      "location": "",
+      "achievements": [
+        "Worked on Sales, Service cloud and developed the official website for Orbinius, featuring product listings, event management capabilities, and integrations for Web-to-Lead and Web-to-Case functionalities.",
+        "Developed APEX triggers, Classes, Test methods and Visual Force pages.",
+        "Implemented UI customizations using picklists, field dependencies, lookups, master-detail relationships, validation rules, and formula fields.",
+        "Followed best practices for Salesforce integrations, including authentication, authorization, and data encryption."
+      ],
+      "technologies": [
+        "Sales Cloud",
+        "Service Cloud",
+        "Apex",
+        "Visualforce",
+        "Web-to-Lead",
+        "Web-to-Case"
+      ]
+    }
+  ]
+}

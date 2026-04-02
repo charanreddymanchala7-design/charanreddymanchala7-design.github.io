@@ -1,0 +1,21 @@
+{
+  "heading": "EDUCATION",
+  "entries": [
+    {
+      "degree": "MS",
+      "institution": "George Mason University",
+      "startDate": "2022",
+      "endDate": "2023",
+      "gpa": "",
+      "honors": []
+    }
+  ],
+  "certifications": [
+    "Salesforce Certified Administrator (SCA)",
+    "Salesforce AI Associate",
+    "Salesforce AI Specialist",
+    "Data Cloud Consultant",
+    "Salesforce Certified Platform Developer 1"
+  ],
+  "languages": []
+}

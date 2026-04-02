@@ -1,0 +1,44 @@
+{
+  "heading": "ABOUT",
+  "paragraphs": [
+    {
+      "text": "5x Certified Salesforce Developer with 8 years of experience designing, developing, and implementing innovative solutions on the Salesforce platform. Expert in integrating Salesforce with external systems using REST and SOAP APIs, Platform Events, OAuth 2.0, and various integration patterns. Adept at optimizing Salesforce applications for performance and scalability, including navigating governor limits and implementing best practices.",
+      "highlights": []
+    },
+    {
+      "text": "Experienced salesforce developer with {yearsExp} of hands-on experience across {industries}.",
+      "highlights": [
+        {
+          "text": "3+ years",
+          "color": "yellow",
+          "key": "yearsExp"
+        },
+        {
+          "text": "data analytics",
+          "color": "pink",
+          "key": "industries"
+        }
+      ]
+    },
+    {
+      "text": "I bring a unique blend of {blend1}, {blend2}, and a genuine enthusiasm for {blend3}.",
+      "highlights": [
+        {
+          "text": "technical expertise",
+          "color": "yellow",
+          "key": "blend1"
+        },
+        {
+          "text": "collaborative leadership",
+          "color": "green",
+          "key": "blend2"
+        },
+        {
+          "text": "building impactful solutions",
+          "color": "cyan",
+          "key": "blend3"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "heading": "Projects",
+  "projects": [
+    {
+      "name": "Loan Approval Prediction System",
+      "description": "Designed and deployed Custom tabs, validation rules, Approval Processes and Auto-Response Rules for automating business logic. Leveraged platform events for real-time, asynchronous communication between Salesforce and other applications. Created Lightning Web Components (LWC) for user search and case ownership transfer, leveraging Screen Flows for declarative automation. Developed and maintained Aura Components and complex Flows (Screen Flows, Auto-launched Flows, Record-triggered Flows).",
+      "technologies": [
+        "Platform Events",
+        "LWC",
+        "Screen Flows",
+        "Aura Components",
+        "Apex"
+      ],
+      "liveUrl": "",
+      "githubUrl": ""
+    },
+    {
+      "name": "covid19-data-engineering",
+      "description": "Learning project built with modern web technologies",
+      "technologies": [
+        "Python",
+        "TSQL"
+      ],
+      "liveUrl": "https://github.com/charanreddymanchala7-design/covid19-data-engineering",
+      "githubUrl": "https://github.com/charanreddymanchala7-design/covid19-data-engineering"
+    },
+    {
+      "name": "online-grocery-retail---prediction-and-recommendation",
+      "description": "Educational project for mastering software architecture",
+      "technologies": [
+        "Jupyter Notebook",
+        "Python"
+      ],
+      "liveUrl": "https://github.com/charanreddymanchala7-design/online-grocery-retail---prediction-and-recommendation",
+      "githubUrl": "https://github.com/charanreddymanchala7-design/online-grocery-retail---prediction-and-recommendation"
+    },
+    {
+      "name": "ecommerce-recommender",
+      "description": "Practice repository for exploring advanced features",
+      "technologies": [
+        "Python",
+        "HTML",
+        "CSS"
+      ],
+      "liveUrl": "https://github.com/charanreddymanchala7-design/ecommerce-recommender",
+      "githubUrl": "https://github.com/charanreddymanchala7-design/ecommerce-recommender"
+    },
+    {
+      "name": "sentiment-analysis-webapp-sagemaker",
+      "description": "Personal development project using industry best practices",
+      "technologies": [
+        "Jupyter Notebook",
+        "Python",
+        "HTML"
+      ],
+      "liveUrl": "https://github.com/charanreddymanchala7-design/sentiment-analysis-webapp-sagemaker",
+      "githubUrl": "https://github.com/charanreddymanchala7-design/sentiment-analysis-webapp-sagemaker"
+    },
+    {
+      "name": "ibm-hr-analytics-employee-attrition-and-performance-prediction",
+      "description": "Full-featured application built as a learning exercise",
+      "technologies": [
+        "Jupyter Notebook"
+      ],
+      "liveUrl": "https://github.com/charanreddymanchala7-design/ibm-hr-analytics-employee-attrition-and-performance-prediction",
+      "githubUrl": "https://github.com/charanreddymanchala7-design/ibm-hr-analytics-employee-attrition-and-performance-prediction"
+    },
+    {
+      "name": "medical-insurance-cost-prediction",
+      "description": "Modern web application demonstrating clean code principles",
+      "technologies": [
+        "Jupyter Notebook"
+      ],
+      "liveUrl": "https://github.com/charanreddymanchala7-design/medical-insurance-cost-prediction",
+      "githubUrl": "https://github.com/charanreddymanchala7-design/medical-insurance-cost-prediction"
+    },
+    {
+      "name": "house-price-prediction_task-1",
+      "description": "Interactive application built for continuous learning",
+      "technologies": [
+        "Jupyter Notebook"
+      ],
+      "liveUrl": "https://github.com/charanreddymanchala7-design/house-price-prediction_task-1",
+      "githubUrl": "https://github.com/charanreddymanchala7-design/house-price-prediction_task-1"
+    },
+    {
+      "name": "customer-churn-prediction",
+      "description": "Educational project for mastering software architecture",
+      "technologies": [
+        "Python"
+      ],
+      "liveUrl": "https://github.com/charanreddymanchala7-design/customer-churn-prediction",
+      "githubUrl": "https://github.com/charanreddymanchala7-design/customer-churn-prediction"
+    },
+    {
+      "name": "fraud-detection-system",
+      "description": "Full-featured application built as a learning exercise",
+      "technologies": [
+        "TypeScript",
+        "Python",
+        "Dockerfile",
+        "CSS",
+        "JavaScript",
+        "HTML"
+      ],
+      "liveUrl": "https://github.com/charanreddymanchala7-design/fraud-detection-system",
+      "githubUrl": "https://github.com/charanreddymanchala7-design/fraud-detection-system"
+    }
+  ]
+}
