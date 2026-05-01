@@ -1,9 +1,9 @@
 {
   "greeting": "Hi there!",
   "name": "Charan Reddy Manchala",
-  "description": "Based in Fairfax, VA. 5x Certified Salesforce Developer with 8 years of experience designing, developing, and implementing innovative solutions on the Salesforce platform.",
-  "tagline": "Salesforce Developer",
-  "avatarUrl": "",
+  "description": "Senior Data Scientist based in Fairfax, VA with 8+ years in data and analytics, 6+ in data science. I ship production-grade ML systems at scale — $1.9M fraud savings, real-time churn prediction across 500K+ users, and high-accuracy recommendation engines.",
+  "tagline": "Senior Data Scientist",
+  "avatarUrl": "assets/img/charan-headshot.png",
   "socialLinks": [
     {
       "icon": "fab fa-github",
@@ -12,112 +12,93 @@
     },
     {
       "icon": "fas fa-envelope",
-      "url": "mailto:charanreddymanchala9@gmail.com",
+      "url": "mailto:charanmreddy01@gmail.com",
       "label": "Email"
+    },
+    {
+      "icon": "fas fa-phone",
+      "url": "tel:+16699998975",
+      "label": "Phone"
     }
   ],
   "techBadges": [
-    {
-      "icon": "fas fa-circle",
-      "label": "Apex"
-    },
-    {
-      "icon": "fas fa-circle",
-      "label": "SOQL"
-    },
-    {
-      "icon": "fas fa-circle",
-      "label": "SOSL"
-    },
-    {
-      "icon": "fas fa-microchip",
-      "label": "LWC"
-    },
-    {
-      "icon": "fas fa-chart-line",
-      "label": "Visualforce"
-    },
-    {
-      "icon": "fas fa-chart-line",
-      "label": "Aura Components"
-    },
-    {
-      "icon": "fas fa-chart-line",
-      "label": "Screen Flows"
-    },
-    {
-      "icon": "fas fa-chart-line",
-      "label": "Salesforce CLI"
-    }
+    { "icon": "fab fa-python", "label": "Python" },
+    { "icon": "fas fa-brain", "label": "XGBoost" },
+    { "icon": "fas fa-fire", "label": "PyTorch" },
+    { "icon": "fas fa-bolt", "label": "Spark" },
+    { "icon": "fab fa-aws", "label": "AWS" },
+    { "icon": "fas fa-database", "label": "SQL" },
+    { "icon": "fas fa-chart-line", "label": "Power BI" },
+    { "icon": "fas fa-robot", "label": "LLMs / RAG" }
   ],
   "terminalCommands": {
     "about": {
       "title": "About Me",
-      "content": "Salesforce Developer with 3+ years of experience building scalable web applications.",
+      "content": "Senior Data Scientist shipping production ML at scale.",
       "highlights": [
-        "Working with Apex",
-        "Working with SOQL",
-        "Working with SOSL"
+        "8+ years in data & analytics, 6+ in data science",
+        "$1.9M fraud savings · 500K+ daily records",
+        "End-to-end: ingestion → features → training → serving"
       ]
     },
     "skills": [
-      "Apex",
-      "SOQL",
-      "SOSL",
-      "LWC",
-      "Visualforce",
-      "Aura Components",
-      "Screen Flows",
-      "Salesforce CLI",
-      "ANT",
-      "Jenkins",
-      "REST API",
-      "SOAP API",
-      "OAuth 2.0",
-      "Platform Events",
-      "Salesforce Platform",
-      "Sales Cloud"
+      "Python",
+      "XGBoost",
+      "PyTorch",
+      "Spark",
+      "AWS",
+      "SageMaker",
+      "Airflow",
+      "Docker",
+      "FastAPI",
+      "MongoDB",
+      "Redis",
+      "Kafka",
+      "Databricks",
+      "Power BI",
+      "Tableau",
+      "RAG / LLMs"
     ],
     "experience": [
       {
         "company": "Comcast",
-        "title": "Full Stack Developer",
-        "period": "June 2023 – present",
-        "location": ""
+        "title": "Data Scientist",
+        "period": "Jun 2023 — present",
+        "location": "USA"
       },
       {
         "company": "Capgemini",
-        "title": "Salesforce Developer",
-        "period": "Mar 2019 – Nov 2021",
-        "location": ""
+        "title": "Data Scientist / ML Engineer",
+        "period": "Mar 2019 — Nov 2021",
+        "location": "India"
       },
       {
         "company": "KCS",
-        "title": "Software Developer",
-        "period": "Apr 2016 - Mar 2018",
-        "location": ""
+        "title": "Data Analyst",
+        "period": "Apr 2016 — Mar 2018",
+        "location": "India"
       }
     ],
     "education": [
       {
-        "degree": "MS",
+        "degree": "MS, Data Analytics Engineering",
         "institution": "George Mason University",
-        "period": "Jan 2022 – May 2023"
+        "period": "Jan 2022 — May 2023"
       }
     ],
     "contact": {
-      "email": "charanreddymanchala9@gmail.com",
-      "website": "",
-      "github": "github.com/charanreddymanchala7-design",
-      "linkedin": ""
+      "email": "charanmreddy01@gmail.com",
+      "phone": "+1 (669) 999-8975",
+      "location": "Fairfax, VA",
+      "github": "github.com/charanreddymanchala7-design"
     }
   },
   "terminalLines": [
     "$ whoami",
     "Charan Reddy Manchala",
     "$ cat role.txt",
-    "Salesforce Developer",
-    "$ ls skills/",
-    "Apex  SOQL  SOSL  LWC  Visualforce"
+    "Senior Data Scientist",
+    "$ ls stack/",
+    "Python  PyTorch  Spark  AWS  RAG"
   ]
 }

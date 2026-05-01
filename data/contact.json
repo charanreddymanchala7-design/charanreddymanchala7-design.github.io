@@ -1,7 +1,19 @@
 {
   "heading": "GET IN TOUCH",
-  "subheading": "Let's build something amazing together",
+  "subheading": "Open to senior data science roles — let's talk shop.",
   "links": [
+    {
+      "icon": "fas fa-envelope",
+      "label": "Email",
+      "url": "mailto:charanmreddy01@gmail.com",
+      "color": "#ff6b9d"
+    },
+    {
+      "icon": "fas fa-phone",
+      "label": "+1 (669) 999-8975",
+      "url": "tel:+16699998975",
+      "color": "#a8e6cf"
+    },
     {
       "icon": "fab fa-github",
       "label": "GitHub",
@@ -9,12 +21,12 @@
       "color": "#ffd93d"
     },
     {
-      "icon": "fas fa-envelope",
-      "label": "Email",
-      "url": "mailto:charanreddymanchala9@gmail.com",
-      "color": "#ff6b9d"
+      "icon": "fas fa-map-marker-alt",
+      "label": "Fairfax, VA",
+      "url": "#",
+      "color": "#66d9ef"
     }
   ],
-  "email": "charanreddymanchala9@gmail.com",
-  "availability": "Open to opportunities"
+  "email": "charanmreddy01@gmail.com",
+  "availability": "Open to senior data science roles"
 }

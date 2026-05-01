@@ -2,42 +2,26 @@
   "heading": "ABOUT",
   "paragraphs": [
     {
-      "text": "5x Certified Salesforce Developer with 8 years of experience designing, developing, and implementing innovative solutions on the Salesforce platform. Expert in integrating Salesforce with external systems using REST and SOAP APIs, Platform Events, OAuth 2.0, and various integration patterns. Adept at optimizing Salesforce applications for performance and scalability, including navigating governor limits and implementing best practices.",
-      "highlights": []
-    },
-    {
-      "text": "Experienced salesforce developer with {yearsExp} of hands-on experience across {industries}.",
+      "text": "Senior Data Scientist with {yearsTotal} in data and analytics, including {yearsDS} in data science. I have a proven track record of building and deploying production-grade data science solutions at scale — delivering measurable impact like $1.9M in fraud savings, real-time churn prediction for 500K+ users, and high-accuracy recommendation systems.",
       "highlights": [
-        {
-          "text": "3+ years",
-          "color": "yellow",
-          "key": "yearsExp"
-        },
-        {
-          "text": "data analytics",
-          "color": "pink",
-          "key": "industries"
-        }
+        { "text": "8+ years", "color": "yellow", "key": "yearsTotal" },
+        { "text": "6+ years", "color": "pink", "key": "yearsDS" }
       ]
     },
     {
-      "text": "I bring a unique blend of {blend1}, {blend2}, and a genuine enthusiasm for {blend3}.",
+      "text": "I work across the full ML lifecycle — from {phase1} and {phase2} to {phase3}, deployment, and monitoring — with a focus on turning models into reliable services that ship.",
       "highlights": [
-        {
-          "text": "technical expertise",
-          "color": "yellow",
-          "key": "blend1"
-        },
-        {
-          "text": "collaborative leadership",
-          "color": "green",
-          "key": "blend2"
-        },
-        {
-          "text": "building impactful solutions",
-          "color": "cyan",
-          "key": "blend3"
-        }
+        { "text": "data ingestion", "color": "cyan", "key": "phase1" },
+        { "text": "feature engineering", "color": "green", "key": "phase2" },
+        { "text": "model development", "color": "yellow", "key": "phase3" }
+      ]
+    },
+    {
+      "text": "My toolkit centers on {tool1}, {tool2}, {tool3}, and scalable data pipelines — and I'm equally comfortable making the case for an ML system to a stakeholder as I am tuning its features.",
+      "highlights": [
+        { "text": "Python", "color": "cyan", "key": "tool1" },
+        { "text": "Spark", "color": "pink", "key": "tool2" },
+        { "text": "AWS", "color": "yellow", "key": "tool3" }
       ]
     }
   ]

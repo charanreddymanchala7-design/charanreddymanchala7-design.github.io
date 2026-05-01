@@ -2,20 +2,30 @@
   "heading": "EDUCATION",
   "entries": [
     {
-      "degree": "MS",
+      "degree": "MS, Data Analytics Engineering (Data Science)",
       "institution": "George Mason University",
-      "startDate": "2022",
-      "endDate": "2023",
+      "logo": "assets/img/logo-gmu.svg",
+      "location": "Fairfax, Virginia · USA",
+      "startDate": "Jan 2022",
+      "endDate": "May 2023",
       "gpa": "",
-      "honors": []
+      "honors": [
+        "Machine Learning",
+        "Statistical Modeling",
+        "Big Data Analytics",
+        "Deep Learning",
+        "Data Visualization",
+        "Hypothesis Testing",
+        "Database Systems"
+      ]
     }
   ],
   "certifications": [
-    "Salesforce Certified Administrator (SCA)",
-    "Salesforce AI Associate",
-    "Salesforce AI Specialist",
-    "Data Cloud Consultant",
-    "Salesforce Certified Platform Developer 1"
+    "Salesforce AI Specialist · 2024",
+    "Salesforce AI Associate · 2024",
+    "Salesforce Data Cloud Consultant · 2023",
+    "Salesforce Certified Administrator · 2022",
+    "Salesforce Certified Platform Developer I · 2022"
   ],
   "languages": []
 }

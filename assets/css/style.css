@@ -2197,3 +2197,901 @@ body[data-theme="dark"] .highlight-green {
   font-size: 0.8rem;
   opacity: 0.5;
 }
+
+/* ===========================================================
+   REFINED LAYOUT v2 — hero polish, journey, education, spacing
+   Overrides earlier rules where there's a conflict.
+   =========================================================== */
+
+/* ---------- Container & section rhythm ---------- */
+.container {
+  padding: 3.5rem 4rem 4rem;
+}
+
+.section {
+  margin-bottom: 5rem;
+  scroll-margin-top: 90px;
+}
+
+.section:last-of-type {
+  margin-bottom: 2rem;
+}
+
+.section-title {
+  margin-bottom: 2.5rem;
+  font-size: 1.75rem;
+  letter-spacing: -0.5px;
+}
+
+.section-title-center {
+  margin-bottom: 3.5rem;
+}
+
+/* ---------- HERO v2 ---------- */
+.hero {
+  padding: 5rem 4rem 4rem;
+}
+
+.hero-content {
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 5rem;
+  align-items: center;
+  margin-bottom: 4rem;
+}
+
+.hero-left {
+  gap: 1.75rem;
+}
+
+.hero-greeting {
+  font-size: 2.25rem;
+  margin-bottom: -0.5rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.hero-greeting::after {
+  content: '';
+  display: inline-block;
+  width: 28px;
+  height: 28px;
+  background: var(--cyan);
+  border: 2px solid var(--border);
+  border-radius: 50%;
+  animation: wiggle 2.4s ease-in-out infinite;
+}
+
+.hero-name {
+  font-size: 4rem;
+  letter-spacing: -2.5px;
+  line-height: 1;
+}
+
+.hero-role {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  width: fit-content;
+  margin: 0;
+  padding: 0.55rem 1.1rem;
+  background: var(--pink);
+  color: #fff;
+  border: var(--border-width) solid var(--border);
+  box-shadow: 4px 4px 0 var(--border);
+  font-family: 'Space Mono', monospace;
+  font-weight: 700;
+  font-size: 1.05rem;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+.hero-role::before {
+  content: '>';
+  color: var(--yellow);
+  font-weight: 900;
+}
+
+.hero-description {
+  font-size: 1.1rem;
+  line-height: 1.75;
+  max-width: 540px;
+  padding: 1.1rem 1.25rem;
+  background: var(--white);
+  border-left: 5px solid var(--cyan);
+  box-shadow: 4px 4px 0 var(--border);
+  border-top: 2px solid var(--border);
+  border-right: 2px solid var(--border);
+  border-bottom: 2px solid var(--border);
+}
+
+/* ---------- HERO right side: photo composition ---------- */
+.hero-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 460px;
+}
+
+.hero-image-wrapper {
+  position: relative;
+  width: min(380px, 90%);
+  aspect-ratio: 1 / 1.15;
+  margin: 0 auto;
+  isolation: isolate;
+}
+
+/* Color blob behind photo */
+.hero-image-wrapper::before {
+  content: '';
+  position: absolute;
+  inset: -12px -8px 18px -18px;
+  background: var(--yellow);
+  border: var(--border-width) solid var(--border);
+  box-shadow: 8px 8px 0 var(--border);
+  z-index: -1;
+  transform: rotate(-3deg);
+}
+
+.hero-image-wrapper::after {
+  content: '';
+  position: absolute;
+  inset: 8px -18px -16px 14px;
+  background:
+    repeating-linear-gradient(45deg, var(--accent) 0 8px, transparent 8px 16px),
+    var(--bg);
+  border: var(--border-width) solid var(--border);
+  z-index: -2;
+  transform: rotate(2deg);
+}
+
+/* The photo itself: polaroid frame */
+.hero-photo,
+.hero-avatar-placeholder {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: var(--white);
+  border: var(--border-width) solid var(--border);
+  box-shadow: 10px 10px 0 var(--border);
+  padding: 12px 12px 60px;
+  object-fit: cover;
+  object-position: center top;
+  transform: rotate(-2deg);
+  transition: transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+  z-index: 2;
+  display: block;
+}
+
+.hero-avatar-placeholder {
+  font-size: 5rem;
+  font-weight: 700;
+  color: var(--text);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-photo.tilted {
+  transform: rotate(-2deg);
+}
+
+.hero-photo:hover,
+.hero-avatar-placeholder:hover {
+  transform: rotate(0deg) scale(1.02);
+}
+
+/* Polaroid caption strip */
+.hero-image-wrapper .deco-label {
+  position: absolute;
+  left: 50%;
+  bottom: 18px;
+  transform: translateX(-50%) rotate(-2deg);
+  z-index: 3;
+  font-family: 'Caveat', cursive;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--text);
+  text-align: center;
+  pointer-events: none;
+  letter-spacing: 0.5px;
+  white-space: nowrap;
+}
+
+/* Tape sticker — refined */
+.tape-sticker {
+  position: absolute;
+  top: -22px;
+  right: 28px;
+  width: 110px;
+  height: 36px;
+  background: rgba(255, 217, 61, 0.85);
+  border: 2px solid rgba(0, 0, 0, 0.15);
+  transform: rotate(12deg);
+  z-index: 4;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Floating decoration SVGs around the photo */
+.deco-code,
+.deco-terminal,
+.deco-floppy {
+  position: absolute;
+  width: 84px;
+  height: 84px;
+  z-index: 5;
+  pointer-events: none;
+  filter: drop-shadow(4px 4px 0 var(--border));
+}
+
+.deco-code {
+  top: -18px;
+  left: -38px;
+  transform: rotate(-14deg);
+  animation: float-slow 4.5s ease-in-out infinite;
+}
+
+.deco-terminal {
+  top: 35%;
+  right: -42px;
+  transform: rotate(10deg);
+  animation: float-slow 5.2s ease-in-out infinite;
+  animation-delay: 0.4s;
+}
+
+.deco-floppy {
+  bottom: -28px;
+  left: -28px;
+  transform: rotate(-8deg);
+  animation: float-slow 4.8s ease-in-out infinite;
+  animation-delay: 0.8s;
+}
+
+.deco-code svg,
+.deco-terminal svg,
+.deco-floppy svg {
+  width: 100%;
+  height: 100%;
+}
+
+/* Cancel the legacy "falling" terminal animation that targets a now-floating element */
+.deco-terminal.falling {
+  animation: float-slow 5.2s ease-in-out infinite !important;
+  transform: rotate(10deg) !important;
+}
+
+/* Hero CTA block */
+.hero-cta-container {
+  margin-top: 0.5rem;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.hero-social {
+  margin-top: 0;
+}
+
+.btn-cta {
+  padding: 0.95rem 1.75rem;
+  font-size: 1.05rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.btn-cta::after {
+  content: '\2192';
+  display: inline-block;
+  transition: transform 0.2s ease;
+}
+
+.btn-cta:hover::after {
+  transform: translateX(4px);
+}
+
+/* Tech badges row */
+.tech-badges {
+  margin-top: 2.5rem !important;
+  gap: 0.65rem;
+}
+
+.tech-badge {
+  padding: 0.55rem 1.05rem;
+  font-size: 0.85rem;
+  border-radius: 4px;
+}
+
+/* Terminal block — pull it up a bit and add breathing room */
+.terminal-block {
+  margin-top: 3rem;
+}
+
+/* ---------- JOURNEY / TIMELINE v2 ---------- */
+.journey-section {
+  margin-top: 1rem;
+}
+
+.journey-container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.timeline-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  position: relative;
+}
+
+.timeline-header {
+  display: none; /* not needed — we have section-title-center */
+}
+
+.timeline-item {
+  display: grid;
+  grid-template-columns: 96px 1fr;
+  gap: 1.75rem;
+  align-items: stretch;
+  position: relative;
+  opacity: 0;
+}
+
+.timeline-item.fade-in,
+.section.fade-in .timeline-item {
+  animation: fadeInUp 0.7s ease forwards;
+}
+
+.timeline-marker {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0;
+}
+
+.timeline-logo-frame {
+  width: 84px;
+  height: 84px;
+  background: var(--white);
+  border: var(--border-width) solid var(--border);
+  box-shadow: 4px 4px 0 var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  flex-shrink: 0;
+}
+
+.timeline-item:hover .timeline-logo-frame {
+  transform: rotate(-4deg) translate(-2px, -2px);
+  box-shadow: 6px 6px 0 var(--border);
+}
+
+.timeline-logo {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+
+.timeline-logo-placeholder {
+  width: 100%;
+  height: 100%;
+  background: var(--cyan);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--text);
+  border: 2px solid var(--border);
+}
+
+.timeline-rail {
+  width: 4px;
+  flex: 1;
+  margin-top: 12px;
+  background:
+    repeating-linear-gradient(180deg, var(--border) 0 8px, transparent 8px 16px);
+  opacity: 0.6;
+}
+
+.timeline-item:last-child .timeline-rail {
+  display: none;
+}
+
+.timeline-card {
+  background: var(--white);
+  border: var(--border-width) solid var(--border);
+  box-shadow: 6px 6px 0 var(--border);
+  padding: 1.75rem 1.85rem 1.6rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  position: relative;
+}
+
+.timeline-card:hover {
+  transform: translate(4px, 4px);
+  box-shadow: 2px 2px 0 var(--border);
+}
+
+.timeline-card-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding-bottom: 0.85rem;
+  border-bottom: 2px dashed var(--border);
+}
+
+.timeline-head-text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  min-width: 0;
+}
+
+.timeline-title {
+  font-size: 1.3rem;
+  font-weight: 700;
+  letter-spacing: -0.3px;
+  margin: 0;
+  line-height: 1.25;
+}
+
+.timeline-company {
+  font-size: 0.95rem;
+  font-weight: 700;
+  font-family: 'Space Mono', monospace;
+  color: var(--cyan);
+  margin: 0;
+  letter-spacing: 0.3px;
+}
+
+body[data-theme="dark"] .timeline-company {
+  color: var(--secondary);
+}
+
+.timeline-head-meta {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.4rem;
+  font-family: 'Space Mono', monospace;
+  font-size: 0.78rem;
+}
+
+.timeline-card .timeline-date {
+  display: inline-block;
+  padding: 0.3rem 0.7rem;
+  background: var(--yellow);
+  border: 2px solid var(--border);
+  font-weight: 700;
+  white-space: nowrap;
+  opacity: 1;
+  color: var(--text);
+}
+
+.timeline-card .timeline-location {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  opacity: 0.65;
+  font-size: 0.78rem;
+  margin: 0;
+}
+
+.timeline-card .timeline-description {
+  font-size: 0.98rem;
+  line-height: 1.65;
+  color: var(--text);
+  margin: 0;
+  opacity: 0.9;
+}
+
+.timeline-card .timeline-achievements {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 0.4rem 1.25rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.timeline-card .timeline-achievements li {
+  position: relative;
+  padding-left: 1.5rem;
+  font-size: 0.9rem;
+  line-height: 1.55;
+  opacity: 0.9;
+}
+
+.timeline-card .timeline-achievements li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0.55rem;
+  width: 10px;
+  height: 10px;
+  background: var(--accent);
+  border: 2px solid var(--border);
+  transform: rotate(45deg);
+}
+
+.timeline-card .timeline-tech {
+  margin-top: 0.25rem;
+  padding-top: 0.85rem;
+  border-top: 2px dashed var(--border);
+}
+
+/* ---------- EDUCATION v2 ---------- */
+.education-languages-section {
+  margin-bottom: 5rem;
+}
+
+.education-languages-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+.education-card {
+  background: var(--white);
+  border: var(--border-width) solid var(--border);
+  box-shadow: 6px 6px 0 var(--border);
+  padding: 2rem 2.25rem;
+}
+
+.education-entry {
+  display: grid;
+  grid-template-columns: 90px 1fr;
+  gap: 1.5rem;
+  align-items: start;
+  padding: 0.75rem 0;
+}
+
+.education-entry + .education-entry {
+  border-top: 2px dashed var(--border);
+  margin-top: 0.5rem;
+  padding-top: 1.25rem;
+}
+
+.edu-logo-frame {
+  width: 90px;
+  height: 90px;
+  background: var(--white);
+  border: var(--border-width) solid var(--border);
+  box-shadow: 4px 4px 0 var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px;
+}
+
+.edu-logo {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+
+.edu-logo-placeholder {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--accent);
+  font-size: 2rem;
+  font-weight: 700;
+  border: 2px solid var(--border);
+}
+
+.education-body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  min-width: 0;
+}
+
+.education-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.education-title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin: 0;
+  letter-spacing: -0.2px;
+}
+
+.education-school {
+  font-size: 1rem;
+  font-weight: 700;
+  font-family: 'Space Mono', monospace;
+  color: var(--cyan);
+  margin: 0.15rem 0 0;
+}
+
+body[data-theme="dark"] .education-school {
+  color: var(--secondary);
+}
+
+.education-card .badge {
+  display: inline-block;
+  padding: 0.3rem 0.7rem;
+  background: var(--yellow);
+  border: 2px solid var(--border);
+  font-family: 'Space Mono', monospace;
+  font-size: 0.78rem;
+  font-weight: 700;
+  white-space: nowrap;
+  align-self: flex-start;
+}
+
+.education-location {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-family: 'Space Mono', monospace;
+  font-size: 0.8rem;
+  opacity: 0.65;
+  margin: 0.2rem 0 0;
+}
+
+.education-coursework {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.4rem;
+  margin-top: 0.85rem;
+  padding-top: 0.85rem;
+  border-top: 2px dashed var(--border);
+}
+
+.coursework-label {
+  font-family: 'Space Mono', monospace;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-weight: 700;
+  opacity: 0.6;
+  margin-right: 0.25rem;
+}
+
+.coursework-tag {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.25rem 0.6rem;
+  background: var(--bg);
+  border: 2px solid var(--border);
+  font-size: 0.78rem;
+  font-weight: 600;
+  font-family: 'Space Mono', monospace;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.coursework-tag:hover {
+  background: var(--accent);
+  transform: translateY(-1px);
+}
+
+/* Certifications block under education */
+.certifications-block {
+  margin-top: 2rem;
+  padding: 1.75rem 2rem;
+  background:
+    repeating-linear-gradient(135deg, transparent 0 18px, rgba(0,0,0,0.03) 18px 19px),
+    var(--white);
+  border: var(--border-width) solid var(--border);
+  box-shadow: 6px 6px 0 var(--border);
+}
+
+.certifications-title {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin: 0 0 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.certifications-title i {
+  color: var(--yellow);
+  background: var(--text);
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.9rem;
+  border: 2px solid var(--border);
+}
+
+.cert-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+}
+
+.cert-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.5rem 0.9rem;
+  background: var(--bg);
+  border: 2px solid var(--border);
+  box-shadow: 3px 3px 0 var(--border);
+  font-size: 0.82rem;
+  font-weight: 600;
+  font-family: 'Space Grotesk', sans-serif;
+  cursor: default;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+}
+
+.cert-badge:hover {
+  transform: translate(2px, 2px);
+  box-shadow: 1px 1px 0 var(--border);
+  background: var(--accent);
+}
+
+.cert-badge i {
+  color: var(--pink);
+  font-size: 0.85rem;
+}
+
+/* ---------- ABOUT spacing ---------- */
+#about .card {
+  background: var(--white);
+  border: var(--border-width) solid var(--border);
+  box-shadow: 6px 6px 0 var(--border);
+  padding: 2.25rem 2.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.1rem;
+}
+
+#about .card .text {
+  font-size: 1.08rem;
+  line-height: 1.75;
+  margin: 0;
+}
+
+.highlight {
+  display: inline-block;
+  padding: 0.05rem 0.45rem;
+  border: 2px solid var(--border);
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+/* ---------- PROJECTS spacing ---------- */
+.projects-grid {
+  gap: 1.75rem;
+  margin-top: 0.5rem;
+}
+
+.project-card {
+  padding: 1.75rem 1.85rem;
+  gap: 0.85rem;
+}
+
+.project-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.project-title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin: 0;
+  word-break: break-word;
+}
+
+.project-desc {
+  font-size: 0.95rem;
+  line-height: 1.65;
+  opacity: 0.9;
+  margin: 0;
+}
+
+.project-card .project-links {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.project-card .icon-link {
+  width: 36px;
+  height: 36px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--bg);
+  border: 2px solid var(--border);
+  box-shadow: 2px 2px 0 var(--border);
+  color: var(--text);
+  text-decoration: none;
+  transition: all 0.2s ease;
+  font-size: 0.95rem;
+}
+
+.project-card .icon-link:hover {
+  transform: translate(2px, 2px);
+  box-shadow: 0 0 0 var(--border);
+  background: var(--cyan);
+}
+
+/* ---------- CONTACT spacing ---------- */
+.contact-container-compact {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.contact-intro {
+  text-align: center;
+  font-family: 'Caveat', cursive;
+  font-size: 1.5rem;
+  margin: -1rem 0 2.25rem;
+  opacity: 0.85;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.5rem;
+}
+
+@media (min-width: 900px) {
+  .contact-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+}
+
+/* ---------- Responsive overrides v2 ---------- */
+@media (max-width: 1024px) {
+  .container { padding: 2.5rem 2.5rem; }
+  .hero { padding: 3rem 2.5rem; }
+  .hero-content { grid-template-columns: 1fr; gap: 4rem; }
+  .hero-name { font-size: 3rem; }
+  .hero-right { min-height: auto; margin-top: 1rem; }
+  .timeline-item { grid-template-columns: 72px 1fr; gap: 1.25rem; }
+  .timeline-logo-frame { width: 72px; height: 72px; }
+  .education-entry { grid-template-columns: 72px 1fr; }
+  .edu-logo-frame { width: 72px; height: 72px; }
+}
+
+@media (max-width: 768px) {
+  .container { padding: 1.75rem 1.25rem; }
+  .hero { padding: 2rem 1.25rem; }
+  .hero-name { font-size: 2.4rem; letter-spacing: -1.5px; }
+  .hero-greeting { font-size: 1.75rem; }
+  .hero-image-wrapper { width: min(300px, 90%); }
+  .deco-code, .deco-terminal, .deco-floppy { width: 64px; height: 64px; }
+  .deco-code { top: -10px; left: -18px; }
+  .deco-terminal { right: -22px; }
+  .deco-floppy { bottom: -18px; left: -10px; }
+  .section { margin-bottom: 3.5rem; }
+  .section-title { font-size: 1.5rem; margin-bottom: 1.75rem; }
+  .timeline-item { grid-template-columns: 56px 1fr; gap: 1rem; }
+  .timeline-logo-frame { width: 56px; height: 56px; padding: 4px; }
+  .timeline-card { padding: 1.25rem 1.25rem 1.1rem; box-shadow: 4px 4px 0 var(--border); }
+  .timeline-card-head { flex-direction: column; align-items: flex-start; }
+  .timeline-head-meta { align-items: flex-start; }
+  .education-card { padding: 1.5rem; }
+  .education-entry { grid-template-columns: 56px 1fr; gap: 1rem; }
+  .edu-logo-frame { width: 56px; height: 56px; padding: 4px; }
+  .certifications-block { padding: 1.25rem; }
+  #about .card { padding: 1.5rem; }
+}

@@ -1,32 +1,15 @@
 {
-  "siteName": "Charan Reddy Manchala | Salesforce Developer",
+  "siteName": "Charan Reddy Manchala — Senior Data Scientist",
   "theme": "light",
-  "loaderInitials": [
-    "C",
-    "R"
-  ],
-  "metaDescription": "Charan Reddy Manchala — Salesforce Developer. Portfolio showcasing professional experience, skills, and projects.",
-  "metaKeywords": "Charan Reddy Manchala, Salesforce Developer, Portfolio",
+  "loaderInitials": ["C", "R"],
+  "metaDescription": "Charan Reddy Manchala — Senior Data Scientist with 8+ years across data and analytics. Production ML systems, churn intelligence, and fraud detection at scale.",
+  "metaKeywords": "Charan Reddy Manchala, Senior Data Scientist, Machine Learning, MLOps, Python, AWS, Spark, Portfolio",
   "progressCheckpoints": [
-    {
-      "id": "hero",
-      "label": "Home"
-    },
-    {
-      "id": "about",
-      "label": "About"
-    },
-    {
-      "id": "experience",
-      "label": "Journey"
-    },
-    {
-      "id": "skills",
-      "label": "Skills"
-    },
-    {
-      "id": "contact",
-      "label": "Contact"
-    }
+    { "id": "hero", "label": "Home" },
+    { "id": "about", "label": "About" },
+    { "id": "experience", "label": "Journey" },
+    { "id": "skills", "label": "Skills" },
+    { "id": "projects", "label": "Projects" },
+    { "id": "contact", "label": "Contact" }
   ]
 }

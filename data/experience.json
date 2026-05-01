@@ -2,79 +2,84 @@
   "heading": "My Journey",
   "positions": [
     {
-      "title": "Full Stack Developer",
+      "title": "Data Scientist",
       "company": "Comcast",
-      "startDate": "June 2023",
-      "endDate": "present",
-      "description": "Developed APEX triggers, Classes, Test methods and Visual Force pages to display alert messages and tasks to be done. Implemented pick lists, filed dependencies, lookups, master-detail relationships, validation and formula fields and customization. Designed and implemented numerous apex classes to manipulate existing org data using SOQL while navigating around governor limits. Developed comprehensive test classes to ensure code quality and maintainability. Mentored junior developers on Salesforce development best practices. Optimized SOQL and SOSL queries to ensure optimal performance. Integrated Salesforce with web forms using Web-to-Lead and Web-to-Case functionality.",
-      "location": "",
+      "logo": "assets/img/logo-comcast.svg",
+      "startDate": "Jun 2023",
+      "endDate": "Present",
+      "location": "USA",
+      "description": "Owning a churn intelligence platform end-to-end — ingestion, features, training, real-time inference, and monitoring — and shipping ML into CRM and marketing stacks for downstream personalization.",
       "achievements": [
-        "Developed APEX triggers, Classes, Test methods and Visual Force pages to display alert messages and tasks to be done.",
-        "Implemented pick lists, filed dependencies, lookups, master-detail relationships, validation and formula fields and customization.",
-        "Designed and implemented numerous apex classes to manipulate existing org data using SOQL while navigating around governor limits.",
-        "Developed comprehensive test classes to ensure code quality and maintainability.",
-        "Mentored junior developers on Salesforce development best practices.",
-        "Optimized SOQL and SOSL queries to ensure optimal performance.",
-        "Integrated Salesforce with web forms using Web-to-Lead and Web-to-Case functionality."
+        "Built and scaled a churn intelligence platform processing 500K+ records daily across the full pipeline.",
+        "Cut churn prediction latency 40% by re-engineering batch jobs into event-driven streaming for sub-second scoring.",
+        "Deployed an XGBoost propensity model on behavioral signals — A/B tested and productionized in 6 weeks, lifting lead conversion 18%.",
+        "Applied K-Means and hierarchical clustering on 2M+ subscribers, lifting retention 11% via targeted campaigns.",
+        "Integrated ML outputs into CRM and marketing systems via REST APIs, powering real-time personalization for 3 downstream teams.",
+        "Built a data quality framework (schema validation, anomaly detection, drift monitoring) that cut quality incidents 35% and saved 6+ hrs/week.",
+        "Stood up CI/CD for ML deployment with automated tests and rollback — 94% test coverage, zero critical regressions.",
+        "Built Power BI dashboards and mentored 3 analysts; iteration cycle dropped from 2 weeks to 4 days."
       ],
       "technologies": [
-        "Apex",
-        "Visualforce",
-        "SOQL",
-        "SOSL",
-        "LWC",
-        "Web-to-Lead",
-        "Web-to-Case"
+        "Python",
+        "XGBoost",
+        "K-Means",
+        "Streaming",
+        "REST APIs",
+        "CI/CD",
+        "Power BI",
+        "MLOps"
       ]
     },
     {
-      "title": "Salesforce Developer",
+      "title": "Data Scientist / ML Engineer",
       "company": "Capgemini",
+      "logo": "assets/img/logo-capgemini.svg",
       "startDate": "Mar 2019",
       "endDate": "Nov 2021",
-      "description": "Worked in Sales, Service cloud with various Salesforce features. Project: Auto-adjusting data processing per data conditioning. Implemented OAuth 2.0 for secure authorization and authentication of external applications. Experienced in mapping data between Salesforce and external systems, including handling data type conversions, transformations, and data cleansing. Developed Apex callouts to external web services to retrieve and process data. Created LWC components for user search and case ownership transfer, leveraging Screen Flows. Implemented data validation rules and other data governance measures. Provided technical support to Salesforce users and optimized data relationships using lookups and junction objects.",
-      "location": "",
+      "location": "India",
+      "description": "Built ETL and ML systems for enterprise clients — ticket-routing NLP, loan-risk scoring, and modular feature pipelines that compressed retraining cycles from weeks to days.",
       "achievements": [
-        "Worked in Sales, Service cloud with various Salesforce features.",
-        "Project: Auto-adjusting data processing per data conditioning.",
-        "Implemented OAuth 2.0 for secure authorization and authentication of external applications.",
-        "Experienced in mapping data between Salesforce and external systems, including handling data type conversions, transformations, and data cleansing.",
-        "Developed Apex callouts to external web services to retrieve and process data.",
-        "Created LWC components for user search and case ownership transfer, leveraging Screen Flows.",
-        "Implemented data validation rules and other data governance measures.",
-        "Provided technical support to Salesforce users and optimized data relationships using lookups and junction objects."
+        "Built scalable Spark/Databricks ETL pipelines across 8+ data sources with schema-drift detection, cutting manual effort 60%.",
+        "Optimized batch workflows to drop training/execution time 30% — from 8 hours to under 3.",
+        "Developed and deployed an NLP ticket-routing model at 87% accuracy, reducing average resolution time by 2.1 days.",
+        "Shipped a loan-risk scoring system using logistic regression and gradient boosting at 91% AUC-ROC, cutting underwriting effort 45%.",
+        "Automated loan-approval routing with real-time scoring — eliminated manual triage and saved ~$120K/year.",
+        "Built modular feature-engineering pipelines with validation gates; retraining cycle dropped from 3 weeks to 4 days.",
+        "Partnered cross-functionally across data prep, modeling, and deployment to deliver end-to-end solutions."
       ],
       "technologies": [
-        "Sales Cloud",
-        "Service Cloud",
-        "Apex",
-        "LWC",
-        "Flows",
-        "OAuth 2.0",
-        "REST API",
-        "SOQL"
+        "Spark",
+        "Databricks",
+        "NLP",
+        "Logistic Regression",
+        "Gradient Boosting",
+        "ETL",
+        "Python"
       ]
     },
     {
-      "title": "Software Developer",
+      "title": "Data Analyst",
       "company": "KCS",
+      "logo": "assets/img/logo-kcs.svg",
       "startDate": "Apr 2016",
       "endDate": "Mar 2018",
-      "description": "Worked on Sales, Service cloud and developed the official website for Orbinius, featuring product listings, event management capabilities, and integrations for Web-to-Lead and Web-to-Case functionalities. Developed APEX triggers, Classes, Test methods and Visual Force pages. Implemented UI customizations using picklists, field dependencies, lookups, master-detail relationships, validation rules, and formula fields. Followed best practices for Salesforce integrations, including authentication, authorization, and data encryption.",
-      "location": "",
+      "location": "India",
+      "description": "Built the analytics foundation: unified data warehouse, behavioral analytics on lead flows, and reporting/automation that gave the business its first reliable daily picture of performance.",
       "achievements": [
-        "Worked on Sales, Service cloud and developed the official website for Orbinius, featuring product listings, event management capabilities, and integrations for Web-to-Lead and Web-to-Case functionalities.",
-        "Developed APEX triggers, Classes, Test methods and Visual Force pages.",
-        "Implemented UI customizations using picklists, field dependencies, lookups, master-detail relationships, validation rules, and formula fields.",
-        "Followed best practices for Salesforce integrations, including authentication, authorization, and data encryption."
+        "Integrated 6+ data sources into a unified warehouse for centralized analytics and reporting.",
+        "Designed behavioral analytics on web-to-lead data, lifting qualified-lead generation 30%.",
+        "Ran EDA and cohort analysis to surface high-value customer segments for marketing and sales.",
+        "Built Tableau and Power BI dashboards for KPI tracking, improving business efficiency 12%.",
+        "Automated reporting workflows with Python and SQL, saving 8+ hrs/week of manual effort.",
+        "Translated stakeholder requirements into data-driven insights to support cross-team decisions."
       ],
       "technologies": [
-        "Sales Cloud",
-        "Service Cloud",
-        "Apex",
-        "Visualforce",
-        "Web-to-Lead",
-        "Web-to-Case"
+        "Python",
+        "SQL",
+        "Tableau",
+        "Power BI",
+        "EDA",
+        "Data Warehousing"
       ]
     }
   ]

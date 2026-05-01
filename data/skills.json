@@ -2,119 +2,114 @@
   "heading": "SKILLS",
   "categories": [
     {
-      "name": "Languages",
+      "name": "Machine Learning",
+      "icon": "fas fa-brain",
+      "items": [
+        { "name": "XGBoost", "icon": "fas fa-bolt" },
+        { "name": "LightGBM", "icon": "fas fa-bolt" },
+        { "name": "Random Forest", "icon": "fas fa-tree" },
+        { "name": "SVM", "icon": "fas fa-vector-square" },
+        { "name": "Logistic Regression", "icon": "fas fa-chart-line" },
+        { "name": "Decision Trees", "icon": "fas fa-sitemap" },
+        { "name": "Feature Engineering", "icon": "fas fa-cogs" },
+        { "name": "Hyperparameter Tuning", "icon": "fas fa-sliders-h" },
+        { "name": "Cross-Validation", "icon": "fas fa-check-double" }
+      ]
+    },
+    {
+      "name": "Deep Learning & NLP",
+      "icon": "fas fa-network-wired",
+      "isHighlight": true,
+      "items": [
+        { "name": "TensorFlow", "icon": "fas fa-cube" },
+        { "name": "PyTorch", "icon": "fas fa-fire" },
+        { "name": "Keras", "icon": "fas fa-layer-group" },
+        { "name": "CNNs", "icon": "fas fa-th" },
+        { "name": "LSTM", "icon": "fas fa-stream" },
+        { "name": "ResNet50", "icon": "fas fa-image" },
+        { "name": "Transformers", "icon": "fas fa-language" },
+        { "name": "Sentence Transformers", "icon": "fas fa-quote-right" },
+        { "name": "Transfer Learning", "icon": "fas fa-exchange-alt" }
+      ]
+    },
+    {
+      "name": "Generative AI",
+      "icon": "fas fa-robot",
+      "items": [
+        { "name": "LLMs", "icon": "fas fa-comment-dots" },
+        { "name": "Prompt Engineering", "icon": "fas fa-keyboard" },
+        { "name": "RAG", "icon": "fas fa-search-plus" },
+        { "name": "Vector Databases", "icon": "fas fa-database" },
+        { "name": "AI Agents", "icon": "fas fa-user-astronaut" }
+      ]
+    },
+    {
+      "name": "Statistics & Analytics",
+      "icon": "fas fa-square-root-alt",
+      "items": [
+        { "name": "Hypothesis Testing", "icon": "fas fa-vial" },
+        { "name": "A/B Testing", "icon": "fas fa-balance-scale" },
+        { "name": "Bayesian Inference", "icon": "fas fa-percentage" },
+        { "name": "Regression Analysis", "icon": "fas fa-chart-line" },
+        { "name": "EDA", "icon": "fas fa-magnifying-glass-chart" },
+        { "name": "KPI Analysis", "icon": "fas fa-tachometer-alt" },
+        { "name": "Data Storytelling", "icon": "fas fa-book-open" }
+      ]
+    },
+    {
+      "name": "Programming & Databases",
       "icon": "fas fa-code",
       "items": [
-        {
-          "name": "Apex",
-          "icon": "fas fa-circle"
-        },
-        {
-          "name": "SOQL",
-          "icon": "fas fa-circle"
-        },
-        {
-          "name": "SOSL",
-          "icon": "fas fa-circle"
-        }
+        { "name": "Python", "icon": "fab fa-python" },
+        { "name": "Pandas", "icon": "fas fa-table" },
+        { "name": "NumPy", "icon": "fas fa-square-root-variable" },
+        { "name": "Scikit-learn", "icon": "fas fa-microchip" },
+        { "name": "R", "icon": "fas fa-r" },
+        { "name": "SQL", "icon": "fas fa-database" },
+        { "name": "PostgreSQL", "icon": "fas fa-database" },
+        { "name": "MongoDB", "icon": "fas fa-leaf" },
+        { "name": "Redis", "icon": "fas fa-memory" }
       ]
     },
     {
-      "name": "Frameworks & Libraries",
-      "icon": "fas fa-layer-group",
+      "name": "Data & Big Data",
+      "icon": "fas fa-server",
       "items": [
-        {
-          "name": "LWC",
-          "icon": "fas fa-microchip"
-        },
-        {
-          "name": "Visualforce",
-          "icon": "fas fa-chart-line"
-        },
-        {
-          "name": "Aura Components",
-          "icon": "fas fa-chart-line"
-        },
-        {
-          "name": "Screen Flows",
-          "icon": "fas fa-chart-line"
-        }
+        { "name": "Apache Spark", "icon": "fas fa-bolt" },
+        { "name": "Databricks", "icon": "fas fa-fire-flame-curved" },
+        { "name": "Kafka", "icon": "fas fa-stream" },
+        { "name": "ETL Pipelines", "icon": "fas fa-arrows-spin" },
+        { "name": "Data Warehousing", "icon": "fas fa-warehouse" },
+        { "name": "Streaming Architectures", "icon": "fas fa-water" },
+        { "name": "Data Governance", "icon": "fas fa-shield-alt" }
       ]
     },
     {
-      "name": "Tools & Platforms",
-      "icon": "fas fa-tools",
+      "name": "MLOps & Deployment",
+      "icon": "fas fa-rocket",
       "items": [
-        {
-          "name": "Salesforce CLI",
-          "icon": "fas fa-chart-line"
-        },
-        {
-          "name": "ANT",
-          "icon": "fas fa-circle"
-        },
-        {
-          "name": "Jenkins",
-          "icon": "fas fa-sync-alt"
-        },
-        {
-          "name": "REST API",
-          "icon": "fas fa-chart-line"
-        },
-        {
-          "name": "SOAP API",
-          "icon": "fas fa-circle"
-        },
-        {
-          "name": "OAuth 2.0",
-          "icon": "fas fa-circle"
-        },
-        {
-          "name": "Platform Events",
-          "icon": "fas fa-chart-line"
-        }
+        { "name": "Docker", "icon": "fab fa-docker" },
+        { "name": "CI/CD", "icon": "fas fa-infinity" },
+        { "name": "Airflow", "icon": "fas fa-wind" },
+        { "name": "Model Monitoring", "icon": "fas fa-eye" },
+        { "name": "FastAPI", "icon": "fas fa-bolt" },
+        { "name": "Flask", "icon": "fas fa-flask" },
+        { "name": "Git", "icon": "fab fa-git-alt" },
+        { "name": "GitHub", "icon": "fab fa-github" }
       ]
     },
     {
-      "name": "Technical Skills",
-      "icon": "fas fa-cogs",
+      "name": "Cloud & Visualization",
+      "icon": "fas fa-cloud",
       "items": [
-        {
-          "name": "Salesforce Platform",
-          "icon": "fas fa-chart-line"
-        },
-        {
-          "name": "Sales Cloud",
-          "icon": "fas fa-microchip"
-        },
-        {
-          "name": "Service Cloud",
-          "icon": "fas fa-chart-line"
-        },
-        {
-          "name": "Data Mapping",
-          "icon": "fas fa-circle"
-        },
-        {
-          "name": "Data Cleansing",
-          "icon": "fas fa-microchip"
-        },
-        {
-          "name": "Agile (Scrum, Kanban)",
-          "icon": "fas fa-chart-line"
-        },
-        {
-          "name": "Waterfall",
-          "icon": "fas fa-chart-line"
-        },
-        {
-          "name": "Data Security",
-          "icon": "fas fa-chart-line"
-        },
-        {
-          "name": "Vulnerability Management",
-          "icon": "fas fa-chart-line"
-        }
+        { "name": "AWS S3 / EC2 / SageMaker", "icon": "fab fa-aws" },
+        { "name": "Azure ML", "icon": "fab fa-microsoft" },
+        { "name": "GCP BigQuery", "icon": "fab fa-google" },
+        { "name": "Tableau", "icon": "fas fa-chart-bar" },
+        { "name": "Power BI", "icon": "fas fa-chart-pie" },
+        { "name": "Matplotlib", "icon": "fas fa-chart-area" },
+        { "name": "Seaborn", "icon": "fas fa-water" },
+        { "name": "Plotly", "icon": "fas fa-chart-line" }
       ]
     }
   ]

@@ -1,110 +1,73 @@
 {
-  "heading": "Projects",
+  "heading": "Featured Projects",
   "projects": [
     {
-      "name": "Loan Approval Prediction System",
-      "description": "Designed and deployed Custom tabs, validation rules, Approval Processes and Auto-Response Rules for automating business logic. Leveraged platform events for real-time, asynchronous communication between Salesforce and other applications. Created Lightning Web Components (LWC) for user search and case ownership transfer, leveraging Screen Flows for declarative automation. Developed and maintained Aura Components and complex Flows (Screen Flows, Auto-launched Flows, Record-triggered Flows).",
+      "name": "FraudShield — Real-Time Fraud Detection",
+      "description": "Ensemble model (XGBoost + Isolation Forest) reaching 98.2% accuracy and 0.99 AUC-ROC at 8% FPR. Real-time scoring at 5,000+ TPS with sub-100ms latency, driving an estimated $1.92M in annual savings via 80% fraud reduction.",
       "technologies": [
-        "Platform Events",
-        "LWC",
-        "Screen Flows",
-        "Aura Components",
-        "Apex"
+        "XGBoost",
+        "Isolation Forest",
+        "FastAPI",
+        "MongoDB",
+        "Redis",
+        "Docker"
       ],
       "liveUrl": "",
-      "githubUrl": ""
+      "githubUrl": "https://github.com/charanreddymanchala7-design/fraud-detection-system"
     },
     {
-      "name": "covid19-data-engineering",
-      "description": "Learning project built with modern web technologies",
+      "name": "Multi-Modal E-Commerce Recommendation Engine",
+      "description": "Hybrid deep-learning system fusing collaborative filtering, content-based filtering, and a graph convolutional network. Processed 200K+ transactions; achieved 95% relevance, F1 0.93, and 0.96 AUC.",
       "technologies": [
-        "Python",
-        "TSQL"
+        "PyTorch",
+        "ResNet50",
+        "Sentence Transformers",
+        "GCN",
+        "Flask"
       ],
-      "liveUrl": "https://github.com/charanreddymanchala7-design/covid19-data-engineering",
-      "githubUrl": "https://github.com/charanreddymanchala7-design/covid19-data-engineering"
-    },
-    {
-      "name": "online-grocery-retail---prediction-and-recommendation",
-      "description": "Educational project for mastering software architecture",
-      "technologies": [
-        "Jupyter Notebook",
-        "Python"
-      ],
-      "liveUrl": "https://github.com/charanreddymanchala7-design/online-grocery-retail---prediction-and-recommendation",
-      "githubUrl": "https://github.com/charanreddymanchala7-design/online-grocery-retail---prediction-and-recommendation"
-    },
-    {
-      "name": "ecommerce-recommender",
-      "description": "Practice repository for exploring advanced features",
-      "technologies": [
-        "Python",
-        "HTML",
-        "CSS"
-      ],
-      "liveUrl": "https://github.com/charanreddymanchala7-design/ecommerce-recommender",
+      "liveUrl": "",
       "githubUrl": "https://github.com/charanreddymanchala7-design/ecommerce-recommender"
     },
     {
-      "name": "sentiment-analysis-webapp-sagemaker",
-      "description": "Personal development project using industry best practices",
+      "name": "IBM HR Analytics — Employee Attrition Prediction",
+      "description": "Multi-model benchmark (XGBoost, LightGBM, SVM) reaching 86.6% accuracy / 0.92 AUC. SHAP explainability surfaced the top attrition drivers; delivered alongside a Power BI dashboard for non-technical stakeholders.",
       "technologies": [
-        "Jupyter Notebook",
-        "Python",
-        "HTML"
+        "XGBoost",
+        "LightGBM",
+        "SVM",
+        "SHAP",
+        "scikit-learn",
+        "Power BI"
       ],
-      "liveUrl": "https://github.com/charanreddymanchala7-design/sentiment-analysis-webapp-sagemaker",
-      "githubUrl": "https://github.com/charanreddymanchala7-design/sentiment-analysis-webapp-sagemaker"
-    },
-    {
-      "name": "ibm-hr-analytics-employee-attrition-and-performance-prediction",
-      "description": "Full-featured application built as a learning exercise",
-      "technologies": [
-        "Jupyter Notebook"
-      ],
-      "liveUrl": "https://github.com/charanreddymanchala7-design/ibm-hr-analytics-employee-attrition-and-performance-prediction",
+      "liveUrl": "",
       "githubUrl": "https://github.com/charanreddymanchala7-design/ibm-hr-analytics-employee-attrition-and-performance-prediction"
     },
     {
-      "name": "medical-insurance-cost-prediction",
-      "description": "Modern web application demonstrating clean code principles",
+      "name": "Medical Insurance Cost Prediction",
+      "description": "Benchmarked five regression algorithms with full EDA. Best model: Random Forest at R² 0.86 / RMSE 4,842. Smokers with high BMI carry roughly 3x higher cost — validated via chi-square and ANOVA.",
       "technologies": [
-        "Jupyter Notebook"
+        "scikit-learn",
+        "Pandas",
+        "Matplotlib",
+        "Seaborn",
+        "Hypothesis Testing"
       ],
-      "liveUrl": "https://github.com/charanreddymanchala7-design/medical-insurance-cost-prediction",
+      "liveUrl": "",
       "githubUrl": "https://github.com/charanreddymanchala7-design/medical-insurance-cost-prediction"
     },
     {
-      "name": "house-price-prediction_task-1",
-      "description": "Interactive application built for continuous learning",
-      "technologies": [
-        "Jupyter Notebook"
-      ],
-      "liveUrl": "https://github.com/charanreddymanchala7-design/house-price-prediction_task-1",
-      "githubUrl": "https://github.com/charanreddymanchala7-design/house-price-prediction_task-1"
+      "name": "COVID-19 Data Engineering",
+      "description": "End-to-end data engineering project on COVID-19 epidemiological data — ingestion, transformation, and analytics-ready modeling using Python and T-SQL.",
+      "technologies": ["Python", "T-SQL", "Data Engineering"],
+      "liveUrl": "",
+      "githubUrl": "https://github.com/charanreddymanchala7-design/covid19-data-engineering"
     },
     {
-      "name": "customer-churn-prediction",
-      "description": "Educational project for mastering software architecture",
-      "technologies": [
-        "Python"
-      ],
-      "liveUrl": "https://github.com/charanreddymanchala7-design/customer-churn-prediction",
+      "name": "Customer Churn Prediction",
+      "description": "Production-style churn model exploring class-imbalance handling, feature importance, and threshold tuning for retention-focused decisioning.",
+      "technologies": ["Python", "scikit-learn", "EDA"],
+      "liveUrl": "",
       "githubUrl": "https://github.com/charanreddymanchala7-design/customer-churn-prediction"
-    },
-    {
-      "name": "fraud-detection-system",
-      "description": "Full-featured application built as a learning exercise",
-      "technologies": [
-        "TypeScript",
-        "Python",
-        "Dockerfile",
-        "CSS",
-        "JavaScript",
-        "HTML"
-      ],
-      "liveUrl": "https://github.com/charanreddymanchala7-design/fraud-detection-system",
-      "githubUrl": "https://github.com/charanreddymanchala7-design/fraud-detection-system"
     }
   ]
 }

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <rect x="4" y="4" width="92" height="92" rx="14" fill="#006633" stroke="#000" stroke-width="4"/>
+  <path d="M50 18 L78 32 L78 56 Q78 76 50 86 Q22 76 22 56 L22 32 Z" fill="#FFCC33" stroke="#000" stroke-width="3"/>
+  <text x="50" y="58" text-anchor="middle" font-family="Space Grotesk, sans-serif" font-weight="700" font-size="20" fill="#006633" stroke="#000" stroke-width="0.5">GMU</text>
+  <line x1="32" y1="66" x2="68" y2="66" stroke="#006633" stroke-width="2"/>
+</svg>

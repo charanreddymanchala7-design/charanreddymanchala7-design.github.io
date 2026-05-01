@@ -1,23 +1,12 @@
 {
   "brandName": "CHARAN REDDY MANCHALA",
-  "brandTitle": "Salesforce Developer",
+  "brandTitle": "Senior Data Scientist · Fairfax, VA",
   "navLinks": [
-    {
-      "label": "Home",
-      "href": "#hero"
-    },
-    {
-      "label": "About",
-      "href": "#about"
-    },
-    {
-      "label": "Experience",
-      "href": "#experience"
-    },
-    {
-      "label": "Skills",
-      "href": "#skills"
-    }
+    { "label": "Home", "href": "#hero" },
+    { "label": "About", "href": "#about" },
+    { "label": "Experience", "href": "#experience" },
+    { "label": "Projects", "href": "#projects" },
+    { "label": "Contact", "href": "#contact" }
   ],
   "socialLinks": [
     {
@@ -27,7 +16,7 @@
     },
     {
       "icon": "fas fa-envelope",
-      "url": "mailto:charanreddymanchala9@gmail.com",
+      "url": "mailto:charanmreddy01@gmail.com",
       "label": "Email"
     }
   ],
